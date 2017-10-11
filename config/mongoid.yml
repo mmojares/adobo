@@ -1,0 +1,12 @@
+development:
+  clients:
+    default:
+      database: adobo
+      hosts:
+        - localhost:27017
+staging:
+  clients:
+    default:
+      database: adobo
+      hosts:
+        - localhost:27017
