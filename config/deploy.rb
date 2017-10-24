@@ -71,5 +71,5 @@ end
 # kill -s SIGTERM pid   # Stop puma
 
 server '192.168.3.6', port: 22, roles: [:web, :app, :db], primary: true
-set :stage, :master
+set :stage, :staging
 set :branch, :develop
